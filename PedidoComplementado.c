@@ -52,7 +52,7 @@ int main() {
             
                 continue;
         }
-        printf("deseas poner mas productos en tu pedido (s/n): ");ad
+        printf("deseas poner mas productos en tu pedido (s/n): ");
         scanf(" %c", &seguir);  
 
     } while (seguir == 's'|| seguir == 'S');
